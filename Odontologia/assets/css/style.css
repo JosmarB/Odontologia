@@ -1,0 +1,84 @@
+body {
+    padding-top: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn-action {
+    margin-right: 5px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.patient-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.medical-history {
+    margin-top: 30px;
+}
+
+.required-field::after {
+    content: " *";
+    color: red;
+}
+
+.custom-modal-header {
+    background-color: #0d6efd;
+    color: white;
+    border-bottom: 2px solid #0056b3;
+}
+
+.custom-modal-body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.custom-modal-footer {
+    background-color: #f1f1f1;
+    border-top: 2px solid #ccc;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.section-content p {
+    margin-bottom: 6px;
+}
+
+.antecedente-item {
+    padding: 8px;
+    background: #e7f1ff;
+    border-radius: 5px;
+}
